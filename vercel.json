@@ -2,9 +2,9 @@
     "version": 2,
     "name": "todolist",
     "builds": [
-       { "src": "index.js", "use": "@now/node" }
+       { "src": "index.js", "use": "@vercel/node" }
     ],
     "routes": [
-       { "src": "/(.*)", "dest": "/indexjs" }
+       { "src": "/(.*)", "dest": "/" }
     ]
  }
